@@ -1,9 +1,66 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Righteous', cursive;
+    font-family: 'Roboto', sans-serif;
     }
+
+:root{
+    --logo-color: #C19932;
+    --buttoms-color:  #FFC700;
+    --white: #FFFFFF;
+}
 
   body{
       background-color: #222121;
+      display: flex;
+      flex-direction: column;
+    
+     
   }
+  header{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding-top: 39px ;
+      font-weight: 500;
+  }
+  .left-logo{
+      padding-left: 85px;
+  }
+  .center-links{
+      display: flex;
+      align-items: center;
+      font-size: 28px;
+      font-weight: 500;
+  }
+  .center-header{
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--white);
+    width: 8rem;
+   
+}
+  #AboutUs{
+    padding-left: 421px;
+  }
+  #Store{
+      padding-left: 124px;
+  }
+  #Contact{
+      padding-left: 134px;
+  }
+ 
+  .navigation-buttons{
+      display: flex;
+      flex-direction: row;
+      padding-left: 491px;
+      gap:102px;
+  }
+  .img-buttons{
+    gap:102px;
+    width:38px;
+    height:38px;
+  }
+  
