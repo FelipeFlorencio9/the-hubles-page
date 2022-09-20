@@ -4,20 +4,23 @@
     --logo-color: #C19932;
     --buttoms-color:  #FFC700;
     --white: #FFFFFF;
+    --height-default: 6.25rem;
+    --width-default: 2.8rem
 }
 
   body{
       background-color: #222121;
-      padding-left: 85px;
-      padding-top: 39px;
+      padding-left: var(--height-default);
+      padding-top: var(--width-default);
+      padding-right: var(--height-default);
+      padding-bottom: var(--width-default);
       display: flex;
       flex-direction: column;
     }
   header{
       display: flex;
-      flex-direction: row;
-      align-items: center;
-      padding-top: 39px ;
+      flex-direction: row;  
+      justify-content: space-between;
       font-weight: 500;
   }
   main{
