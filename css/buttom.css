@@ -6,6 +6,7 @@
     align-items: center;
     font-family: 'Roboto';
     font-weight: 500;
+    grid-row: 3/4;
 }
 .order-buttom__space{
     display: flex;
