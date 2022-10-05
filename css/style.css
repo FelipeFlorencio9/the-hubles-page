@@ -25,9 +25,13 @@
   }
   main{
       display: grid;
-      grid-template-columns: 39rem 1fr 1fr 1.5rem;
+      grid-template-columns: 40rem 1fr 1fr 1.5rem;
       grid-template-rows: repeat(3, 1fr);
-      
+      grid-template-areas: 
+          "announcement bike aside"
+          "announcement bike aside"
+          "announcement table aside"
+      ;
       
   }
   

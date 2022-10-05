@@ -9,12 +9,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-top: 35px;
     padding-left: 90px;
-    padding-bottom: 34px;
     padding-right: 73px;
-    grid-column: 2/3;
-    grid-row: 3/4;
+    grid-area: table;
+   
 }
 
 .info-table__item{

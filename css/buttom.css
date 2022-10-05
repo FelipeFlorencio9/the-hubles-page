@@ -6,7 +6,8 @@
     align-items: center;
     font-family: 'Roboto';
     font-weight: 500;
-    grid-row: 3/4;
+    grid-row: 1/2;
+    
 }
 .order-buttom__space{
     display: flex;
