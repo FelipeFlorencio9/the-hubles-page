@@ -1,0 +1,13 @@
+.circle{
+    z-index: -1;
+}
+#left-circle{
+    transform: translate(-45%, 120%);
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+#right-circle{
+    transform: translate(1035%, -30%);
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
