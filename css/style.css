@@ -16,6 +16,7 @@
       padding-bottom: var(--width-default);
       display: flex;
       flex-direction: column;
+
     }
   header{
       display: flex;
@@ -26,11 +27,11 @@
   main{
       display: grid;
       grid-template-columns: 40rem 1fr 1fr 1.5rem;
-      grid-template-rows: repeat(3, 1fr);
+      grid-template-rows: 1fr 1fr 150px;
       grid-template-areas: 
-          "announcement bike aside"
-          "announcement bike aside"
-          "announcement table aside"
+          "announcement bike bike aside"
+          "announcement bike bike aside"
+          "announcement table table aside"
       ;
       
   }

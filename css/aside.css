@@ -1,5 +1,5 @@
 aside{
-    grid-area: aside;
+   grid-area: aside;
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
