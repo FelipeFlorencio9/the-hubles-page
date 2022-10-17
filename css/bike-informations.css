@@ -1,0 +1,23 @@
+.bike-informations{
+    position: relative;
+}
+
+.bike-informations__image{
+    position: absolute;
+    width: 100%;
+}
+.bike-informations__vector{
+    position: relative;
+    z-index: 1;
+}
+#vector-circle{
+    position: relative;
+}
+#vector-background{
+    position: absolute;
+    z-index: 1;
+}
+#vector-image{
+    position: absolute;
+    z-index: 2;
+}
