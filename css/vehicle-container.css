@@ -1,11 +1,9 @@
 
 .vehicle-container{
-    
-    /* 
     grid-area: bike;
-    z-index: -1; 
+    
     transform: translate(-10%, 0%);
-    */
+    
     
 }
 .vehicle-container_img{
