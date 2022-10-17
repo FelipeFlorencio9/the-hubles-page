@@ -3,6 +3,7 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
     color: white;
+    box-sizing: border-box;
     }
     ul, ol , li{
         list-style-type: none;

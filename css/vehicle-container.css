@@ -1,0 +1,20 @@
+
+.vehicle-container{
+    
+    /* 
+    grid-area: bike;
+    z-index: -1; 
+    transform: translate(-10%, 0%);
+    */
+    
+}
+.vehicle-container_img{
+    z-index: -1;
+    height:100%;
+    width:100%;
+}
+
+.vehicle-container__buttoms{
+    position: absolute;
+}
+
