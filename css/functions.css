@@ -3,3 +3,24 @@
     bottom: 36rem;
     left: 25rem;
 }
+#signal-lights{
+    position: absolute;
+    bottom: 31rem;
+    left: 22rem;
+}
+#ergonomic-seat{
+    position: absolute;
+    bottom: 27rem;
+    left: 48rem;
+}
+#tail-ligths{
+    position: absolute;
+    bottom: 23rem;
+    left: 58rem;
+    
+}
+#alloy-whells{
+    position: absolute;
+    bottom: 9rem;
+    left: 19rem;
+}
