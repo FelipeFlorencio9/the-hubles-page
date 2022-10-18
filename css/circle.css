@@ -1,11 +1,15 @@
 .circle{
-    z-index: -1;
-    
+    z-index: 0;
+    position: absolute;   
 }
 #left-circle{
-    transform: translate(-200%, 110%);
-    grid-area: table;}
+    top: 6.5rem;
+    left: -2rem;
+    grid-area: table;
+
+}
 #right-circle{
-    transform: translate(920%, -30%);
+    top: -3rem;
+    right: -3rem;
     grid-area: table;
 }

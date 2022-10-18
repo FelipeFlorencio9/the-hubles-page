@@ -12,9 +12,7 @@
     padding-left: 90px;
     padding-right: 73px;
     grid-area: table;
-    transform: translate(-10%, 5%);
-
-   
+    position: relative;
 }
 
 .info-table__item{
