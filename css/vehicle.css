@@ -1,0 +1,22 @@
+
+.vehicle{
+    grid-area: vehicle;
+    position: relative;
+  
+}
+.vehicle img{
+    height:100%;
+    width:100%;
+}
+
+.vehicle__buttoms{
+    position: absolute;
+}
+.buttom{
+    position: relative;
+}
+.buttom img{
+    position: absolute;
+    transform: translate(-50%,-50%)
+}
+

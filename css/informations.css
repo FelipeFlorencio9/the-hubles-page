@@ -1,4 +1,8 @@
-.info-table{
+.informations{
+    position: relative;
+    grid-area: informations;
+}
+.informations__table{
     width: 1030px;
     height: 145px;
     background: rgba(196, 196, 196, 0.07);
@@ -11,17 +15,17 @@
     align-items: center;
     padding-left: 90px;
     padding-right: 73px;
-    grid-area: table;
+    grid-area: informations;
     position: relative;
 }
 
-.info-table__item{
+.informations__table li{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.info-table__item h3{
+.informations__table h3{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 800;
@@ -29,13 +33,35 @@
     line-height: 42px;
 
 }
-.info-table__item p{
+.informations__table p{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
     text-align: center;
+    color: #CCC6C6;
+}
 
-color: #CCC6C6;
+
+.circle{
+    grid-area: informations;
+    position: absolute;
+    z-index: -1;
+
+}
+.circle__left{
+    grid-area: informations;
+    position: absolute;
+    z-index: -1;
+    bottom: -22%;
+    left: -3%;
+}
+.circle__right{
+    grid-area: informations;
+    position: absolute;
+    z-index: -1;
+    top: -20%;
+    right: -5%;
+    
 }
