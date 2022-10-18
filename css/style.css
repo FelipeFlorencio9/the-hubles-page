@@ -7,9 +7,7 @@
     --height-default: 6.25rem;
     --width-default: 2.8rem
 }
-html{
-  
-}
+
   body{
       background-color: #222121;
       padding-left: var(--height-default);
