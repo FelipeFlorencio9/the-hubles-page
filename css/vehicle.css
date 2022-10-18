@@ -1,20 +1,21 @@
 
 .vehicle{
-    grid-area: vehicle;
     position: relative;
   
 }
-.vehicle img{
-    height:100%;
-    width:100%;
+.vehicle__visual{
+    grid-area: vehicle;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
 }
 
-.vehicle__buttoms{
+.vehicle__vectors{
+    grid-area: vehicle;
     position: absolute;
+    
 }
-.buttom{
-    position: relative;
-}
+
 .buttom img{
     position: absolute;
     transform: translate(-50%,-50%)

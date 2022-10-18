@@ -31,6 +31,7 @@
           "announcement vehicle aside"
           "announcement informations aside"
       ;
+      grid-template-rows: auto;
       
   }
   
