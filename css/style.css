@@ -7,7 +7,9 @@
     --height-default: 6.25rem;
     --width-default: 2.8rem
 }
-
+html{
+  
+}
   body{
       background-color: #222121;
       padding-left: var(--height-default);
@@ -17,6 +19,9 @@
       display: flex;
       flex-direction: column;
       box-sizing: border-box;
+      height: 100%;
+      width: 100%;
+      
     }
   header{
       display: flex;

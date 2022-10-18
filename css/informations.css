@@ -1,6 +1,8 @@
 .informations{
     position: relative;
     grid-area: informations;
+    transform: translate(-7rem, 0);
+
 }
 .informations__table{
     width: 1030px;

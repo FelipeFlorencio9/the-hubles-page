@@ -1,6 +1,7 @@
 
 .vehicle{
     position: relative;
+    transform: translate(-7rem, 0);
   
 }
 .vehicle__visual{
