@@ -1,18 +1,17 @@
 
-.vehicle-container{
-    grid-area: bike;
-    
+.vehicle{
+    grid-area: vehicle;
     transform: translate(-10%, 0%);
     
     
 }
-.vehicle-container_img{
+.vehicle_img{
     z-index: -1;
     height:100%;
     width:100%;
 }
 
-.vehicle-container__buttoms{
+.vehicle__buttoms{
     position: absolute;
 }
 

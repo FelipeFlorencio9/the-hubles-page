@@ -27,11 +27,9 @@
   main{
       display: grid;
       grid-template-columns: 40rem 1fr 1fr 1.5rem;
-      grid-template-rows: 1fr 1fr 150px;
       grid-template-areas: 
-          "announcement bike bike aside"
-          "announcement bike bike aside"
-          "announcement table table aside"
+          "announcement vehicle aside"
+          "announcement table aside"
       ;
       
   }

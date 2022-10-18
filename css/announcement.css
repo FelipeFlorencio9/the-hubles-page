@@ -2,7 +2,7 @@
 .announcement{
     align-items: center;
     padding-top: 180px;
-    grid-row: 1/3;
+    grid-area: announcement;
   }
   .announcement__logo{
     font-family: 'Delius Unicase';

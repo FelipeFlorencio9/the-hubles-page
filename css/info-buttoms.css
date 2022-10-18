@@ -1,0 +1,10 @@
+.info-buttoms{
+    position: absolute;
+    top: 10rem;
+}
+
+.info-buttoms__icon{
+    position: absolute;
+    transform: translate(50%,50%);
+   
+}
